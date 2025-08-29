@@ -1,0 +1,1232 @@
+// void main() {
+//   var principle =2000;
+//   var month = 2;
+//   var days = 22;
+//   var Rate = 5;
+//   var time = 3;
+// var year = 2024;
+//   if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 ||
+//       month == 10 || month == 12) {
+//
+//     var daysinmonth = 31;
+//     var resultMonth = days / daysinmonth;
+//     print('${resultMonth}');
+//   } else if (month == 4 || month == 6 || month == 9 || month == 11) {
+//
+//     var daysinmonth = 30;
+//     var resultMonth = days / daysinmonth;
+//     print('${resultMonth}');
+//   } else {
+//     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+//       var daysinmonth = 29;
+//       var resultMonth = days / daysinmonth;
+//       print('${resultMonth}');
+//       var simpleInterest = (principle * resultMonth * Rate) / 100;
+//       print(simpleInterest);
+//     } else {
+//       var daysinmonth = 28;
+//       var resultMonth = days / daysinmonth;
+//       print('${resultMonth}');
+//       var simpleInterest = (principle * resultMonth * Rate) / 100;
+//       print(simpleInterest);
+//     }
+//   }
+// }
+// void main(){
+// var year = 2024;
+//         if((year%4==0 && year%100!=0)|| (year%400==0)){
+//           print('${year} is a leapYear February(29days)');
+//         }else{
+//           print('${year} is not a leapYear (28days)');
+//     }
+// }
+//
+//
+
+
+
+
+
+
+
+
+// void main() {
+//   var year = 2400;
+//   if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+//     print('${year} is a leap year');
+//   } else {
+//     print('${year} is not a leap year');
+//   }
+// }
+
+// void main(){
+//   var year = 2004;
+//   if((year%4==0 && year%100!=0) || (year%400==0)){
+//   print('${year} is a leap year');
+//   }else{
+//     print('${year}is not a leap year');
+//   }
+// }
+
+// void main(){
+//   var year = 2048;
+//   if(year%4==0){
+//     if(year%100==0){
+//       if(year%400==0){
+//         print('${year}is a leap year');
+//     } }else{
+//       print('${year} is a leap year');
+//     }
+//   }else{
+//     print('${year} is not a leap year');
+//   }
+// }
+
+// void main() {
+//   var year = 2100;
+//   if (year % 4 == 0) {
+//     if (year % 100 == 0) {
+//       if (year % 400 == 0) {
+//         print('${year} is a leap year');
+//       } else {
+//         print('${year} is not a leap year');
+//       }
+//     } else {
+//       print('${year} is not a leap year');
+//     }
+//   } else {
+//     print('${year}');
+//   }
+// }
+
+// void main(){
+//   var Table = 20000;
+//   var discount = 20;
+//   var findDiscountAmount = (discount*Table)/100;
+//   print('${findDiscountAmount}');
+//   var findPayTotalAmount = Table-findDiscountAmount;
+//   print('${findPayTotalAmount}');
+// }
+
+
+// void main() {
+//   var BoysAge = 21;
+//   var GirlsAge = 21;
+//   if (BoysAge >= 21) {
+//     print('All Girls will go to Hostel A');
+//   } else {
+//     print('All underAge Girls will go to Hostel B');
+//   }if(GirlsAge>=21){
+//     print('All boys will go  to Hostel A');
+//   }else{
+//     print('All boys will goto Hostel B');
+//   }
+// }
+
+
+// void main(){
+//   var gender1 = "male";
+//   var gender2 = "female";
+//   var BoysAge = 20;
+//   var GirlsAge = 40;
+//   if(gender1=="male"){
+//     print('Block A');
+//     if (BoysAge>=30) {
+//       print('Building A');
+//     } else {
+//       print('Building B');
+//     }
+//   } if(gender2=="female"){
+//     print('Block A');
+//     }if(GirlsAge>=30) {
+//       print('Building A');
+//   }else{
+//     print('Building B');
+//   }
+//   }
+
+
+
+// void main() {
+//   var principle = 10000.0;
+//   var rate = 10;
+//   var time = 3;
+//   var Amount = principle;
+//   Amount = Amount + (Amount * rate / 100);
+//   Amount = Amount + (Amount * rate / 100);
+//   Amount = Amount+(Amount*rate/100);
+//   double A = Amount - principle;
+//   print('Principle :${principle}');
+//   print('Rate :${rate}');
+//   print('Time :${time}');
+//   print("Total Amount :${Amount}");
+//   print('Compound Interest :${A}');
+// }
+
+// void main(){
+//   var principle = 10000.0;
+//   var rate = 10;
+//   var time = 3;
+//   var original = principle;
+//   principle=principle+(principle*rate)/100;
+//   principle=principle+(principle*rate/100);
+//   principle=principle+(principle*rate/100);
+// print('3 months amount :${principle}');
+//
+// var Amount = principle-original;
+// print(Amount);
+// }
+
+// void main(){
+//   var weight = 68;
+//   var height = 170;
+//   var centiMeter = (height/100);
+//   var centiMeterConvertToMeter = (centiMeter*centiMeter);
+//   var CalculateBMI = (weight/centiMeterConvertToMeter);
+//  3 print(CalculateBMI);
+//  print(centiMeterConvertToMeter);
+// }
+
+
+// import 'dart:math';
+// void main(){
+//   double principle = 120000.0;
+//   double InterestRate = 10;
+//   double N = 12;
+//   double MonthlyInterestRate = (InterestRate)/(12*100);
+//   print(MonthlyInterestRate);
+//   double EMI = (principle*MonthlyInterestRate)*(pow(1+MonthlyInterestRate,N)) / (pow(1+MonthlyInterestRate,N)-1);
+//   print('Per Month EMI :${EMI}');
+//   double TotalAmount = EMI*N;
+//   print('Total pay amount :${TotalAmount}');
+//   double TotalInterest = TotalAmount-principle;
+//   print('Total Interest :${TotalInterest}');
+// }
+
+// import 'dart:math';
+//
+// void main(){
+//   var principle = 1200000.0;
+//   var InterestRate = 10;
+//   var N = 12;
+//   var MonthlyInterestRate = (InterestRate)/(12*100);
+//   print('Monthly Interest Rate :${MonthlyInterestRate}');
+//   var EMI = (principle*MonthlyInterestRate)*(pow(1+MonthlyInterestRate,N))/(pow(1+MonthlyInterestRate,N)-1);
+//   print('Per month EMI:${EMI}');
+//   var TotalPay = EMI*N;
+//   print('Total Pay :${TotalPay}');
+//   var TotalInterest = TotalPay-principle;
+//   print('Total Interest :${TotalInterest}');
+// }
+
+// void main(){
+//   var principle = 12000;
+//   var rate = 5.0;
+//   var months = 3;
+//   var Days = 20;
+//   var DaysConvertInMonths = Days/31;
+//   print('${ DaysConvertInMonths}');
+//   var SimpleInterest = (principle*rate*months)/100;
+//   print('Simple Interest in 3Months :${SimpleInterest}');
+//   var SimpleInterestIn20DAYS = (principle*rate*DaysConvertInMonths)/100;
+//   print('SimpleInterest in 20days :${SimpleInterestIn20DAYS}');
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// void main(){
+//   var sum = 0;
+//   for(int i=0; i<30; i++) {
+//     if (i % 2 == 0) {
+//       print('${i}');
+//     }
+//     sum = sum + i;
+//   }
+//   print('SUM :${sum}');
+// }
+
+// void main(){
+//   var fact = 1;
+//   for(int i = 1; i<=5; i++){
+//     fact=fact*i;
+//   }
+//   print('Factorial :${fact}');
+// }
+
+// void main(){
+//   var num = 2;
+//   for(int i=1;  i<=10; i++){
+//     print('${num} multiply by ${i} = ${num*i}');
+//   }
+// }
+
+// void main(){
+//   var num = 5;
+//   while(num>0){
+//     print(num);
+//     num--;
+//   }
+// }
+
+// void main() {
+//   var num = 1;
+//   var sum = 0;
+//   while (num <= 10) {
+//     print(num);
+//     sum=sum+num;
+//     num++;
+//   }
+//   print(sum);
+// }
+
+// void main(){
+//   var fact = 1;
+//   var num = 1;
+//   while(num<=5){
+//     fact=fact*num;
+//     num++;
+//   }
+//   print('Factorial of 5 is :${fact}');
+// }
+
+// void main(){
+//  var NorthOut= true;
+//  var WestOut = true;
+//  var SouthIn = true;
+//  if(SouthIn==true){
+//    print('If the bus from SouthIn gets green signal , then the eastIn , northIn and westIn sides also open');
+//  }else if(NorthOut==true){
+//    print('If the bus from NorthOut gets green signal , then the eastIn , southOut sides also open and then others sides are also opens as southIN to westIN and NorthIN');
+//  }else if(WestOut==true){
+//      print('If the bus form WestOut gets green signal , then the NorthIn , eastIn and and southOut sides also open');
+//    }else{
+//    print('If the bus from EastOut gets green signal , then the SouthOut , WestIn and NorthIn sides also open');
+//  }
+// }
+
+// void main(){
+//   for(int i=0; i<=100; i++){
+//     if(i%2==0){
+//       print('Even number :${i}');
+//     }else{
+//       print('Odd number :${i}');
+//     }
+//   }
+// }
+
+// void main(){
+//   var principle = 10000;
+//   var rate = 5;
+//   var ThreeMonths = 3;
+//   var days = 20;
+//   var SimpleInterest = (principle*rate*ThreeMonths)/100;
+//   print('Simple interest of 3 months : ${SimpleInterest}');
+//   var daysConvertInMonths = days/30;
+//   print('InterestRate of 20days :${daysConvertInMonths}');
+//   var SimpleInterestInDays = (principle*rate*daysConvertInMonths)/100;
+//   print('Simple interest of 20 days :${SimpleInterestInDays}');
+//   var AddSimpleInterest = SimpleInterest+SimpleInterestInDays;
+//   print('Total simpleInterest is :${AddSimpleInterest}');
+//
+// }
+//rekh nevi nevi yaadhna
+
+// void main(){
+//   var principle = 10000;
+//   var rate = 5;
+//   var time = 3;
+//   var SimpleInterest = (principle*rate*time)/100;
+//   print(SimpleInterest);
+//   var ExtraInterestRate = 2;
+//   var ExtraSimpleInterest = (principle*rate*ExtraInterestRate)/100;
+//   print('Extra interest Rate in 2 months :${ExtraSimpleInterest}');
+//   var AddExtraSimpleInterest = SimpleInterest+ExtraSimpleInterest;
+//   print('Total interest ${AddExtraSimpleInterest}');
+// }
+
+// void main(){
+//   var principle = 10000;
+//    var rate = 5;
+//    var time = 3;
+//    var days = 20;
+//    var SimpleInterest = (principle*rate*time)/100;
+//    print(SimpleInterest);
+//
+//    var daysConvertInMonth = days/31;
+//    print(daysConvertInMonth);
+//
+//    var SimpleInterestInDays = (principle*rate*daysConvertInMonth)/100;
+//    print(SimpleInterestInDays);
+//
+//    var TotalInterest = SimpleInterest+SimpleInterestInDays;
+//    print(TotalInterest);
+// }
+
+// import 'dart:math';
+//
+// void main(){
+//   var principle = 10000;
+//   var rate = 5;
+//   var time = 3;
+//   var extraTwoMonths = 2;
+//   var TwentyDaysExtra = 20;
+//
+//   var SimpleInterest = (principle*rate*time)/100;
+//   print('Simple Interest of 3 Months :${SimpleInterest}');
+//
+//   var SecondInterestRate = (principle*rate*extraTwoMonths)/100;
+//   print('Simple Interest of 2 Months :${SecondInterestRate}');
+//
+//   var ExtraDays = TwentyDaysExtra/31;
+//   print('Days Convert in Months :${ExtraDays}');
+//
+//   var findExtraDaysInterest = (principle*rate*ExtraDays)/100;
+//   print('Simple interest of 20Days :${findExtraDaysInterest}');
+//
+//   var TotalInterest = SimpleInterest+SecondInterestRate+findExtraDaysInterest;
+//    print('Total Interest :${TotalInterest}');
+// }
+
+//
+// import 'dart:math';
+//
+// void main(){
+//   var principle = 10000;
+//   var rate = 5;
+//   var time = 3;
+//   var days = 20;
+//   var ThreeMonths = time/12;
+//   print(ThreeMonths);
+//   var TwentyDays = days/365;
+//   print(TwentyDays);
+//   var AddTime = ThreeMonths+TwentyDays;
+//   print(AddTime);
+//   var A = principle*(pow(1+5/100);
+// }
+
+
+// void main(){
+//   var principle = 1000.0;
+//   var rate = 50;
+//   var time = 3;
+//   var Amount = principle;
+//
+//   Amount= Amount+(Amount*rate)/100;
+//   Amount=Amount+(Amount*rate)/100;
+//   Amount=Amount+(Amount*rate)/100;
+//   var CI = Amount-principle;
+//   print(CI);
+//
+//   print('Principle ${principle}');
+//   print('Amount ${Amount}');
+//   print('Compound interest :${CI}');
+// }
+
+//void main(){
+//   var principle = 10000.0;
+//   var Rate = 5;
+//   var time = 3;
+//   var Amount = principle;
+//   Amount=Amount+(Amount*Rate)/100;
+//   Amount=Amount+(Amount*Rate)/100;
+//   Amount=Amount+(Amount*Rate)/100;
+//
+//   var CompoundInterest = Amount-principle;
+//   print(CompoundInterest);
+// }
+
+// import 'dart:math';
+//
+// void main() {
+//   var principle = 10000.0;
+//   var rate = 20.0;
+//   var N = 24;
+//   var MonthlyInterestRate = rate/ (12 * 100);
+//   print(MonthlyInterestRate);
+//
+//   var EMI = (principle*MonthlyInterestRate*(pow(1+MonthlyInterestRate,N))/ (pow(1+MonthlyInterestRate,N)-1));
+//   print(EMI);
+//
+//   var TotalInterest = EMI*N;
+//   print(TotalInterest);
+// }
+
+// void main() {
+//   var principle = 10000;
+//   var rate = 5;
+//   var ThreeMonths = 3;
+//   var AddTwoMonths = 2;
+//   var AddExtra20days = 20;
+//   var SimpleInterest1 = (principle * rate * ThreeMonths) / 100;
+//   print('First Simple Interest :${SimpleInterest1}');
+//
+//   var SimpleInterest2 = (principle * rate * AddTwoMonths) / 100;
+//   print('Second Simple Interest :${SimpleInterest2}');
+//
+//   var daysConvertMonths = AddExtra20days / 30;
+//   print('Days convert in months :${daysConvertMonths}');
+//
+//   var SimpleInterest3 = (principle * rate * daysConvertMonths) / 100;
+//   print('Third Simple Interest :${SimpleInterest3}');
+//
+//   var AddAllInterest = SimpleInterest1+SimpleInterest2+SimpleInterest3;
+//   print('Total Interest :${AddAllInterest}');
+// }
+
+// void main() {
+//   var principle = 10000.0;
+//   var rate = 7.0;
+//   var time = 3;
+//   var amount = principle;
+//
+//   amount = amount + (amount * rate) / 100;
+//   amount = amount + (amount * rate) / 100;
+//   amount = amount + (amount * rate) / 100;
+//
+//   print('Total Amount :${amount}');
+//   var CompoundInterest = amount - principle;
+//   print('Compound Interest :${CompoundInterest}');
+// }
+
+
+// Dougtt
+// void main(){
+//   var principle = 10000.0;
+//   var rate = 5.0;
+//   var amount = principle;
+//   for(double amount=1; amount<=3; amount++){
+//     amount=amount+(amount*rate)/100;
+//     print('Total Amount :${amount}');
+//     var CompoundInterest = amount-principle;
+//     print('Compound Interest :${CompoundInterest}');
+//   }
+// }
+
+
+// void main(){
+//   int sum=0;
+//   for(int i=1; i<=5; i++){
+//     sum=sum+i;
+//     print(i);
+//   }
+//   print('Sum :${sum}');
+// }
+
+// void main() {
+//   var fact = 1;
+//   for (int i = 1; i <= 5; i++) {
+//     fact = fact * i;
+//   }
+//   print('Factorial :${fact}');
+// }
+
+// void main(){
+//   var a = 34;
+//   var b = 56;
+//   var c = a;
+//   a=b;
+//   b=c;
+//   print('a ${a}');
+//   print('b ${b}');
+// }
+
+// void main(){
+//   var a = 34;
+//   var b= 56;
+//   a=a+b;
+//   b=a-b;
+//   a=a-b;
+//   print('a :${a}');
+//   print('b ;${b}');
+// }
+
+
+// Swap using third variable
+// void main(){
+//   var a=10;
+//   var b = 15;
+//   var c = a;
+//   a=b;
+//   b=c;
+//   print(a);
+//   print(b);
+// }
+
+// Swap not using third variable;
+//    void main(){
+//     var a=90;
+//     var b = 45;
+//     a=a+b;
+//     b=a-b;
+//     a=a-b;
+//     print(a);
+//     print(b);
+//    }
+
+// void main(){
+//   var SumSquare = 0;
+//   var SumCube = 0;
+//   for(var i=1; i<=100; i++){
+//     SumSquare=SumSquare+(i*i);
+//     SumCube=SumCube+(i*i*i);
+//   }
+//   print(SumSquare);
+//   print(SumCube);
+// }
+
+
+// void main(){
+//   var number = 23;
+//   var isPrime = true;
+//   if(number<=1){
+//     isPrime=false;
+//   }else{
+//     for(var i=2; i<=number-1; i++){
+//       if(number%i==0){
+//         isPrime= false;
+//         break;
+//       }
+//     }
+//   }
+//   if(isPrime){
+//     print('${number} is a prime number');
+//   }else{
+//     print('${number} is not a prime number');
+//   }
+// }
+
+// void main(){
+//   for(int n=1; n<=100; n++){
+//     var isPrime = true;
+//   if(n<=1){
+//     isPrime=false;
+//   }else{
+//     for(var i=2; i<=n-1; i++){
+//       if(n%i==0){
+//         isPrime=false;
+//       }
+//     }
+//   }
+//   if(isPrime){
+//     print('${n} is a prime number');
+//     }
+//   }
+// }
+
+//import 'dart:io';
+// import 'dart:math';
+// import 'dart:vmservice_io';
+//
+// void main(){
+//   var principle = 10000.0;
+//   var rate = 5.0;
+//   var N  = 12;
+//   var annualInterest = (rate)/(12*100);
+//   print('${annualInterest}');
+//   var EMI = (principle*annualInterest*pow(1+annualInterest,N))/((pow(1+annualInterest,N)-1));
+//   print('EMI : z${EMI}');
+//   var TotalPay = EMI*N;
+//   print('${TotalPay}');
+//   var Interest = TotalPay-principle;
+//   print('${Interest}');
+// }
+
+// void main(){
+//   var Weight = 70;
+//   var heightInCm = 172;
+//   var HeightConvertInMeter = heightInCm/100;
+//   print(HeightConvertInMeter);
+//   var Square = Weight/(HeightConvertInMeter*HeightConvertInMeter);
+//   print('${Square}');
+// }
+// void main(){
+//   var year=2019;
+//   if(year%400==0){
+//     print('${year} is a leap year');
+//   }else if(year%100==0){
+//     print('${year} is not a leap year');
+//   }else if(year%4==0){
+//     print('${year} is a leap year');
+//   }
+//   else{
+//     print('${year} is not a leap year');
+//   }
+// }
+
+// void main(){
+//   var year=2800;
+//   if(year%4==0){
+//     iint()(year%100==0) {
+//       if (year % 400 == 0) {
+//         print('${year} is a leap  year');
+//       } else {
+//         print('${year} is not a leap year');
+//       } }else {
+//       print('${year} is a leap year');
+//     }
+//   }else {
+//     print('${year} is not a leap year');
+//   }
+// }
+
+
+
+// void main(){
+//   var number = 5678;
+//   var reverse = 0;
+//   do{
+//     var digit=number%10;
+//     reverse=(reverse*10+digit);
+//     number=number~/10;
+//     print('${reverse}');
+//   }while(number>0);
+//
+// }
+
+// void main(){
+//   int a = 5;
+//   int b = 2;
+//   print('${b/a}');
+// }
+// void main() {
+//   List<String>number = ["apple","Mango","Pineapple"];
+// var a =  number.length;
+//   print('${a}');
+// }
+
+// void main(){
+//   List<int> number = [1,2,3,4,5,6];
+//   var a = number.length;
+//   print('${a}');
+// }
+
+// void main(){
+//   List<String> number = ["Apple","Mango","PineApple","Banana"];
+//   var a = number.length;
+//   print('${a}');
+// }
+
+// void main() {
+//   List<String> number = ["Apple", "Mango", "PineApple", "Banana"];
+//   print('${number[3]}');
+// }
+
+// void main(){
+//   List<int> number = [1,2,3,4,5,6];
+//   print('${number[2]}');
+// }
+
+
+// void main(){
+//   List<int> number = [];
+//    number.add(1);
+//    number.add(2);
+//    number.add(3);
+//   print('${number}');
+// }
+
+//
+// void main(){
+//   List<int> number = [0,1,3,5,10];
+//   var a = number.length;
+//   print('${a}');
+//   var b = number.first;
+//   print('${b}');
+//   var c = number.last;
+//   print('${c}');
+//   var d = number.reversed;
+//   print('${d}');
+//   var e = number.add(11);
+//   print('${number}');
+//   var f = number.removeLast();
+//   print('${f}');
+//   var g  =number.removeAt(3);
+//   print('${g}');
+//   var h = number.contains(10);
+//   print('${h}');
+//   var i = number.insert(2,99);
+//   print('${number}');
+//   var j = number.last;
+//   print('${j}');
+//   var k = number.removeRange(0,3);
+//   print('${number}');
+// }
+
+// void main(){
+//   List<int>a = [1,2,3,4,5,6];
+//   List<int>b = [7,8,9,10,11];
+//   a.addAll(b);
+//   print('${a}');
+// }
+
+// void main(){
+//   List<int> a = [1,2,3,4,5,6];
+//   a.insertAll(1,[10,11]);
+//   print('${a}');
+// }
+
+
+
+
+// void main(){
+//   List<int> number = [1,20,2,10,4,20,6,7,8,9,10];
+//   var a = number.indexOf(20);
+//   print('${a}');
+//   var b = number.lastIndexOf(20);
+//   print('${b}');
+//   var c = number.sort();
+//   print('${number}');
+//   var d = number.sublist(1,4);
+//   print('${d}');
+//   var e = number.isNotEmpty;
+//   print('${e}');
+//   var f = number.isEmpty;
+//   print('${f}');
+// }
+
+// Revision
+// 1=SimpleInterest
+// 2 =EMI calculator
+// 3 =BMI calculator
+// 4 =Loop
+// 5=Loop Sum
+// 6=Factorial
+// 7=Swap
+// 8=PrimeNumber
+// 9=Leap year
+// 10=Fabonaci Series
+// 11=Prime number 1 to 100
+// 12=number%3 and 5
+// 13=Square sum
+// 14=CompoundInterest
+// 16=Reverse
+
+// 1
+// void main(){
+//   var principle= 10000;
+//   var rate = 5;
+//   var time = 3;
+//   var SimpleInterest = (principle*rate*time)/100;
+//   print('Simple Interest :${SimpleInterest}');
+// }
+
+// 2
+// import 'dart:math';
+// void main(){
+//   var principle = 100000.0;
+//   var AnnualRate = 12.0;
+//   var N = 5;
+//   var YearConvertMonths = N*12;
+//   print('${YearConvertMonths}');
+//   var rate = AnnualRate/(12*100);
+//   print('Per Month Interest Rate :${rate}');
+//   var EMI = principle*rate*(pow(1+rate,YearConvertMonths))/(pow(1+rate,YearConvertMonths)-1);
+//   print('EMI:${EMI}');
+//   var TotalPay = EMI*YearConvertMonths;
+//   print('Total Pay :${TotalPay}');
+// }
+
+// 2.1
+// void main(){
+//   var weight = 70;
+//   var height = 172;
+//   var HeightConvertInMeter = height/100;
+//   print('Height Meter :${HeightConvertInMeter}');
+//   var Bmi = (weight)/(HeightConvertInMeter*HeightConvertInMeter);
+//   print('BMI is :${Bmi}');
+// }
+
+// 3
+// void main(){
+//   for(int i=0; i<=5; i++){
+//     print('${i}');
+//   }
+// }
+
+// 4
+// void main(){
+//   int sum=0;
+//   for(int i=0; i<=5; i++){
+//     sum=sum+i;
+//   }
+//   print(sum);
+// }
+
+// 5
+// void main(){
+//   int fact=1;
+//   for(int i=1; i<=5; i++){
+//     fact=fact*i;
+//   }
+//   print('Factorial :${fact}');
+// }
+
+// 6
+// void main(){
+//   var a= 45;
+//   var b = 51;
+//   var c = a;
+//   a=b;
+//   b=c;
+//   print('${a}');
+//   print('${b}');
+// }
+
+// 6.1
+// void main(){
+//   var a = 90;
+//   var b = 45;
+//   a=a+b;
+//   b=a-b;
+//   a=a-b;
+//   print('${a}');
+//   print('${b}');
+// }
+
+// 7
+// void main(){
+//   var num = 29;
+//  bool isPrime = true;
+//   if(num<=1){
+// isPrime=false;
+//   }else{
+//     for(var i=2; i<=num-1; i++){
+
+//       if(num%i==0){
+//         isPrime=false;
+//         break;
+//       }
+//     }
+//   }
+//   if(isPrime){
+//     print('${num} is a prime number');
+//   }else{
+//     print('${num} is not a prime number');
+//   }
+// }
+
+
+// 7.1
+// void main() {
+//
+//   for (var n = 1; n <= 100; n++) {
+//     bool isPrime = true;
+//
+//     if (n <= 1) {
+//       isPrime = false;
+//     } else {
+//       for (var i = 2; i <= n - 1; i++) {
+//         if (n % i == 0) {
+//           isPrime = false;
+//
+//         }
+//       }
+//     }
+//     if (isPrime) {
+//       print('${n} is a prime number');
+//     }
+//   }
+// }
+
+
+// 8
+// void main(){
+//   var principle = 10000.0;
+//   var rate = 5.0;
+//   var time = 3;
+//   var amount = principle;
+//   amount=amount+(amount*rate)/100;
+//   amount=amount+(amount*rate)/100;
+//   amount=amount+(amount*rate)/100;
+//
+//   var CI = amount-principle;
+//   print('${CI}');
+// }
+
+//  9
+// void main(){
+//   for(int i=1; i<=100; i++){
+//     if(i%3==0 && i%5==0){
+//       print('${i} is divisible by 3 and 5');
+//     }
+//   }
+// }
+
+// 10
+// void main(){
+//   var year=2044;
+//   if(year%4==0){
+//     if(year%100==0) {
+//       if (year % 400 == 0)  {
+//         print('${year} is a leap year');
+//       }else{
+//         print('${year} is not a leap year');
+//       }
+//     }else{
+//       print('${year} is a leap year');
+//     }
+//     }else{
+//     print('${year} is not a leap year');
+//   }
+// }
+
+// 11
+// void main(){
+//   var n=10;
+//   var first = 0, Second=1;
+//   for(var i=0; i<n; i++){
+//     int Third = first+Second;
+//     print('${Third}');
+//     first=Second;
+//     Second=Third;
+//   }
+// }
+
+// void main(){
+//   List<String> items=["RedTapeShoe","Sports","Puma","Nike"];
+//   List<int> price = [3000,2000,4000,5000];
+//   List<int> discount= [20,40,30,50];
+//   for(int i=0; i<=3; i++) {
+//     var DiscountAmount = (discount[i] * price[i]) / 100;
+//     var TotalPay = (price[i]-DiscountAmount);
+//     print('Total pay amount of per ${items[i]} : ${TotalPay}');
+//   }
+// }
+
+// void main(){
+//        var number = 6432;
+//        var reverse = 0;
+//        var temp = number;
+//        while (number > 0) {
+//            int digit = number % 10;
+//             reverse=reverse*10+digit;
+//            number=number~/10;
+//        }
+//        print(number==number);
+// }
+
+// void main() {
+//   List<double> principle = [10000.0, 12000.0, 13000.0, 14000.0, 15000.0];
+//   List<double> rate = [10.0,20.0,10.0,15.0,17.0];
+//   List<int> time = [3, 2, 3, 2, 1];
+//   for (int i = 0; i <= 4; i++) {
+//     var SimpleInterest = (principle[i] * rate[i] * time[i]) / 100;
+//     print('SimpleInterest of ${i} item :${SimpleInterest}');
+//   }
+// }
+
+// void main(){
+//   List<double> principle = [10000.0, 12000.0, 13000.0, 14000.0, 15000.0];
+//   List<double> rate = [5.0, 6.0, 7.0, 8.0, 9.0];
+//   List<int> months = [12, 11, 5, 6, 8];
+//   List<int> days = [20, 25, 21, 22, 23];
+//   for (int i = 0; i <= 4; i++) {
+//     var daysConvertInMoths = (days[i] / 31);
+//     var SimpleInterestInMonths = (principle[i] * rate[i] * months[i])/100;
+//      var TotalAmountInMonth = principle[i]+SimpleInterestInMonths;
+//     print('${TotalAmountInMonth}');
+//     var TotalInterestInDays = days[i]/30;
+//     var SimpleInterestInDays = (principle[i]*rate[i]*TotalInterestInDays)/100;
+//     print('Remaining Days ${SimpleInterestInDays}:');
+//     var Total = TotalAmountInMonth+SimpleInterestInDays;
+//     print('Total interest (Months + Days) : ${Total}');
+//   }
+// }
+
+  // void main(){
+//   int number = 12345;
+//   int reversed=0;
+//   int sum=0;
+//   for(int i=0; i<=4; i++){
+//     int digit = number%10;
+//     reversed=reversed*10+digit;
+//     number=number~/10;
+//     sum=sum+digit;
+//   }
+//   print('Reversed : ${reversed}');
+//   print('Sum :${sum}');
+// }
+
+// void main(){
+//   List<int> number= [1,2,3,4,5,6];
+//   for(int i=0; i<number.length; i++){
+//     print('${number[i]}');
+//   }
+// }
+
+// void main(){
+//   List<int> number = [1,2,3,4,5,6];
+//   int sum = 0;
+//   for(int i=0; i<number.length; i++){
+//     sum=sum+number[i];
+//   }
+//   print('Sum :${sum}');
+// }
+
+// void main(){
+//   List<int> number = [1,2,3,4,5];
+//   int fact = 1;
+//   for(int i=1; i<=number.length; i++){
+//     fact=fact*i;
+//   }
+//   print('Factorial :${fact}');
+// }
+
+// void main(){
+//   List<int> number = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+//   for(int i=0; i<number.length; i++){
+//     if(number[i]%2==0){
+//       print('${number[i]} Even Number');
+//     }else{
+//       print('${number[i]} Odd Number');
+//     }
+//   }
+// }
+
+// void main(){
+//   List<int> numbers = [10,50,12,11,3,4,29];
+//   var min=numbers[0];
+//   var max=numbers[0];
+//   for(int i=1; i<numbers.length; i++){
+//     if(numbers[i]<min){
+//       numbers[i]=min;
+//     }
+//     if(numbers[i]>max){
+//       numbers[i]=max;
+//     }
+//   }
+// }
+
+// void main(){
+//   List<String> items = ["Small","Medium","Large"];
+//   List<double> price = [100.0,200.0,400.0];
+//   List<String> couponCode = ["abCz4","Bcs2J","VzSd3"];
+//   double discount = 0;
+//   for(int i=0; i<3; i++) {
+//     if (couponCode == "abCz4" && couponCode == "Bcs2J" &&
+//         couponCode == "VzSd3") {
+//       discount = (price[i] * 5.0) / 100;
+//       print('${discount}');
+//     } else {
+//       print('Invalid Coupon Code');
+//     }
+//   }
+//   }
+
+
+
+// void main(){
+//   var RedTapeShoes = [1200.0,1300.0,1400.0,1500.0];
+//   var discount =50;
+//   var discountAmount = [];
+//   var couponCode = ["abcD","efgH","iJkl","MnOp"];
+//   for(int i=0; i<4; i++) {
+//     if (couponCode[i] == "abcD" || couponCode[i] == "efgH" ||
+//         couponCode[i] == "iJl" || couponCode[i] == "MnOp") {
+//       var dis = (RedTapeShoes[i] * discount) / 100;
+//       discountAmount.add(dis);
+//     }else{
+//     discountAmount.add("Invalid Couponcode");
+//     }
+//   }
+//   print(discountAmount);
+// }
+
+void main(){
+  var amount = 0.0;
+  var RedTapeShoe = 1200.0;
+  var DiscountPercent = 20.0;
+  var Quantity = 2.0;
+  var FindDiscountAmount = (RedTapeShoe*DiscountPercent)/100;
+  print('Discount Amount First :${FindDiscountAmount}');
+  amount=RedTapeShoe-FindDiscountAmount;
+  print('${amount}');
+  Quantity=Quantity*amount;
+  print('${Quantity}');
+
+    
+
+  var RedTapeShoe2 = 1400.0;
+  var DiscountPercent2 = 15;
+  var FindDiscountAmount2 = (RedTapeShoe2*DiscountPercent2)/100;
+  print('Discount Amount Second :${FindDiscountAmount2}');
+  amount=RedTapeShoe2-FindDiscountAmount2;
+  print('${amount}');
+
+  var TotalPayAmount = amount+amount;
+  print('Total pay Amount :${TotalPayAmount}');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
